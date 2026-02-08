@@ -1,0 +1,6 @@
+ydl_opts = {
+    "cookiefile": "cookies.txt",
+    "outtmpl": "downloads/%(title)s.%(ext)s",
+    "format": "bestvideo+bestaudio/best",
+    "merge_output_format": "mp4",
+}
